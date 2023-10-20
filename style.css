@@ -19,7 +19,7 @@ body {
     height: 100vh;
     background-size: cover;
     background-position: center;
-    background-image: url(personal-portfolio-img/images/background.png);
+    background-image: url(personal-portfolio-img/images/mypic.png);
 }
 
 .container {
@@ -75,10 +75,15 @@ nav ul li a:hover::after {
 .header-text h1 {
     font-size: 60px;
     margin-top: 20px;
+    color: #080808;
 }
 
 .header-text h1 span {
     color: #ff004f;
+}
+
+.header-text p {
+    color: #080808;
 }
 
 /*-------------------------ABOUT----------------------------*/
@@ -374,7 +379,7 @@ nav .fa-solid {
 
 @media only screen and (max-width:600px) {
     #header {
-        background-image: url(personal-portfolio-img/images/phone-background.png);
+        background-image: url(personal-portfolio-img/images/mypic-for-phone.png);
     }
 
     .header-text {
@@ -446,8 +451,8 @@ nav .fa-solid {
     }
 }
 
-#msg{
-    color: #61b752; 
-    margin-top:-20px;
+#msg {
+    color: #61b752;
+    margin-top: -20px;
     display: block;
 }
